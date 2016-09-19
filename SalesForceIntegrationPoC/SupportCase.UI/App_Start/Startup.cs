@@ -15,8 +15,8 @@ namespace SupportCase.UI.App_Start
     {
         public void Configuration(IAppBuilder app)
         {
-            JwtSecurityTokenHandler.InboundClaimTypeMap
-                = new Dictionary<string, string>();
+            //JwtSecurityTokenHandler.InboundClaimTypeMap
+            //    = new Dictionary<string, string>();
 
 
             //app.UseCookieAuthentication(new CookieAuthenticationOptions
