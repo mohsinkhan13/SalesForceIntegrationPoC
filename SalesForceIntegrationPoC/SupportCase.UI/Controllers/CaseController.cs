@@ -48,7 +48,7 @@ namespace SupportCase.UI.Controllers
         {
             var client = new HttpClient();
             client.SetBearerToken(token);
-            var result = await client.GetStringAsync(serviceUrl + "/services/data/v37.0/sobjects/case/");
+            var result = await client.GetStringAsync(serviceUrl + "/services/data/v37.0/sobjects/case/5000Y000000v15iQAA");
 
             return result;
         }
